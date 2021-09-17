@@ -1,0 +1,48 @@
+.PDetailsContainer {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pDetails {
+    border: 1px solid;
+    margin: 5px;
+    width: 300px;
+    padding: 5px;
+}
+
+.pDetails li {
+    list-style: none;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.actualPrice {
+    color: maroon;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 12px;
+}
+.aftrDiscountPrice {
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+.pDetails img {
+    width: 150px;
+    height: 150px;
+}
+
+main-container {
+    overflow: auto;
+}
+
+.logoutLink {
+    color: blue;
+    cursor: pointer;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

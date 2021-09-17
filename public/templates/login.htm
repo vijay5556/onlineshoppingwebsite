@@ -1,0 +1,24 @@
+<loginBlock>
+    <div class="loginContent">
+        <h3>User Login</h3>
+        <ul>
+            <li>
+                
+                <input autocomplete="off" type="text" id="uid" placeholder="User Account Id"  class="form-control">
+            </li>
+            <li>
+                <input type="password" id="upwd" placeholder="User Account Password" class="form-control">
+            </li>
+            <li>
+                <input type="button" value="Signin" class="btn btn-primary" onclick="readUserInfo()">
+            </li>
+            <li>
+                <div class="link" onclick="loadPage('fgpwd')">Forgot Password?</div>
+                <div class="link" onclick="loadPage('signup')">New Signup</div>
+            </li>
+            <li id="errMSg">
+
+            </li>
+        </ul>
+    </div>
+</loginBlock>

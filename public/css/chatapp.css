@@ -1,0 +1,40 @@
+.chatContainer {
+    border: 2px solid;
+    position: absolute; 
+    width: 360px;
+    height: 300px;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+    background-color: #ccc;
+}
+.msgContainer, 
+.btnContainer {
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.msgContainer {
+    height: 220px;
+}
+.btnContainer {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.btnContainer input {
+    height: 50px;
+}
+.btnContainer input[type=text] {
+    width: 260px;
+}
+
+.sendMsg {
+    color: blue;
+}
+
+.receiveMsg {
+    color: greenyellow;
+}

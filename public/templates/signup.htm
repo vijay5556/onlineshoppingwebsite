@@ -1,0 +1,34 @@
+<userRegistration>
+    <div class="blockContent">
+        <ul>
+            <li>
+                <input type="text" class="form-control" placeholder="User ID" id="uid">
+            </li>
+            <li>
+                <div class="inptController">
+                    <input type="Password" placeholder="Password" id="upwd"  >
+                </div>
+                
+            </li>
+            <li>
+                <input type="password" placeholder="Re enter password" class="form-control" >
+            </li>
+            <li>
+                <input type="text" id="umailid" placeholder="User Mail Id" class="form-control" >
+            </li>
+            <li>
+                <input type="button" class="btn btn-primary" value="Register User" onclick="registerUser()">
+                <br>
+                <input type="checkbox" onchange="valueChange(event)">Show Password
+            </li>
+            <LI>
+                <div class="succssMsg"></div>
+                <div class="errMsg"></div>
+            </LI>
+            <li id="gotoLogin" style="display: none;">
+                <input type="button" class="btn btn-primary" value="Go To Login" onclick="loadPage('login')">
+            </li>
+            
+        </ul>
+    </div>
+</userRegistration>
